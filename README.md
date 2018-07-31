@@ -1,18 +1,14 @@
-## Go lien App HEROKU:
-# https://test2appigwen.herokuapp.com/
+## Ruby on Rails version
 
-## Voir mon code:
-```
-$ git clone https://github.com/Gwekkeo/app-je-me-presente.git
-```
-```
-$ cd app-je-me-presente
-```
+Ruby '2.5.1'
 
-## Etapes:
-* Installation des gems (sans la production)
-* Lancement des migrations
+Rails '5.2.0'
 
+
+## Heroku : https://my-name-is-slim-shaddy.herokuapp.com/
+
+
+## Steps:
 ```
 $ bundle install --without production
 ```
@@ -23,19 +19,19 @@ $ rails db:migrate
 $ rails server
 ```
 
+## Open your browser and launch
 ```
 $ localhost:3000
 ```
 
-### Si probleme avec rails server
+## If it doesn't work
 ```
 $ rails server -p 4567
 ```
+## Launch
 ```
 $ localhost:4567
 ```
 
-### Version ruby
-ruby '2.5.1'
-
-Fait par CASSAND Gwendoline
+#### Louis Delestre
+#### Jeremie De Gueltzl
